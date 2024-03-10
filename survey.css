@@ -1,0 +1,75 @@
+/* setting background styling to page */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #3498db, #2ecc71);
+    color: #fff;
+} 
+
+/* aligning items in the center of page */
+#surveypage {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ 
+
+#Navigation-Buttons{
+    width :70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#prev-button{
+    height: 40px;
+    width: 80px;
+    background-color: blue;
+    border-radius: 10px;
+    border: none;
+    font-size: medium;
+}
+#next-button{
+    height: 40px;
+    width: 80px;
+    background-color: palevioletred;
+    border-radius: 10px;
+    border: none;
+}
+
+/* styling the rating button to look like star  */
+.rating-button{
+    display: inline-block;
+    padding: 30px 40px;
+    background-color: rgb(254, 254, 128);
+    color: #fff;
+    text-decoration: none;
+    font-size: 10px;
+    border: none;
+    color: black;
+    cursor: pointer;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);;
+}
+
+/* giving green color to the selected button so i can be identify easily*/
+.selected-button{
+    background-color:rgb(32, 200, 32);
+    border: 2px solid white ;
+}
+
+#survey-screen p{
+    font-size: 3.5ch;
+    font-weight:500;
+}
+
+/*  */
+.feedbackText{
+    max-width: 30vw;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.9); 
+    padding: 20px;
+    border-radius: 12px; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    border: 2px solid #4caf50; 
+}

@@ -1,0 +1,29 @@
+/* Default styles */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, #3498db, #2ecc71); /* Gradient colors for the body */
+    color: #fff; /* Text color for better contrast */
+}
+#welcome-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 4.5ch;
+    
+}
+
+#start-button {
+    height: 40px;
+    width: 93px;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+}
+
